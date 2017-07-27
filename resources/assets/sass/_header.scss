@@ -1,0 +1,44 @@
+.page-header {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    min-height: 70px;
+
+    border-radius: 0;
+
+    .navbar-nav {
+        li {
+            margin-top: 0;
+        }
+    }
+
+    .logo {
+        display: inline-block;
+        margin-right: 8px;
+    }
+}
+
+.navbar-nav > li > a {
+    line-height: 42px;
+}
+
+.navbar-brand {
+    padding: 24px 15px;
+    height: 70px;
+}
+
+.logo {
+    position: relative;
+    top: -10px;
+    left: -1px;
+
+    display: inline-block;
+    width: 42px;
+    height: 36px;
+
+    vertical-align: -26px;
+}

@@ -1,0 +1,29 @@
+
+// Fonts
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+//@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic);
+//@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import "../fonts/google-font-raleway";
+@import "../fonts/google-font-roboto";
+@import "../fonts/google-font-material";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "vue-material";
+
+html, body{
+    background-color: #fff;
+}
+
+body {
+    font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'Open Sans', 'WenQuanYi Micro Hei', sans-serif;
+}
+
+@import "header";
+
+.body-container {
+    margin-top: 50px
+}
