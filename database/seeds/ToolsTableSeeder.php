@@ -28,7 +28,7 @@ class ToolsTableSeeder extends Seeder
         $tool->title = 'Atlassian 的wiki程序';
         $tool->description = 'Atlassian 是一家澳大利亚软件企业公司，这公司的皇牌产品为专门用作追踪应用程式问题的JIRA ，还有用作协作团队的产品Confluence...';
         $tool->logoURL = '/images/tool/logo/company.png';
-        $tool->webURL = 'http://i.wiki./';
+        $tool->webURL = 'http://i.wiki.io/';
         $tool->index = 1;
         $tool->markdownFile = '/markdown/tool/pdfree.md';
         $tool->save();
