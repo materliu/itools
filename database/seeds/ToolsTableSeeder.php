@@ -173,5 +173,15 @@ class ToolsTableSeeder extends Seeder
         $tool->index = 16;
         $tool->markdownFile = '/markdown/tool/eventlab.md';
         $tool->save();
+
+        $tool = new Tool;
+        $tool->name = 'aria2-web-ui';
+        $tool->title = 'aria2c的下载观察页面';
+        $tool->description = 'github上的一个开源项目，部署在 workspaces/github/webui-aria2';
+        $tool->logoURL = '/images/tool/logo/transfer.png';
+        $tool->webURL = 'http://aria2.mater.io';
+        $tool->index = 17;
+        $tool->markdownFile = '/markdown/tool/eventlab.md';
+        $tool->save();
     }
 }
