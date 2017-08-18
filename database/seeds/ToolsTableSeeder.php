@@ -183,5 +183,15 @@ class ToolsTableSeeder extends Seeder
         $tool->index = 17;
         $tool->markdownFile = '/markdown/tool/eventlab.md';
         $tool->save();
+
+        $tool = new Tool;
+        $tool->name = 'sitesucker';
+        $tool->title = 'sitesucker下载到本地的站点';
+        $tool->description = '有一些站为了本地看着方便就用sitesucker下载下来存在本地了';
+        $tool->logoURL = '/images/tool/logo/sitesucker.jpeg';
+        $tool->webURL = 'http://sitesucker.mater.io';
+        $tool->index = 18;
+        $tool->markdownFile = '/markdown/tool/eventlab.md';
+        $tool->save();
     }
 }
